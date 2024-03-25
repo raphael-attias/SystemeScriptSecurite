@@ -3,7 +3,7 @@
 API_URL="https://jsonplaceholder.typicode.com/users"
 
 # Répertoire de logs
-LOG_DIR="/var/log/api_logs"
+LOG_DIR="/home/Documents/laplateforme/api_logs"
 LOG_FILE="$LOG_DIR/api_log_$(date +%Y-%m-%d).log"
 
 envoyer_requete() {
